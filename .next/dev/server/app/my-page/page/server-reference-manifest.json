@@ -1,0 +1,35 @@
+{
+  "node": {
+    "78a333388d3e2db9241a5de54a510b23b3813ec8e2": {
+      "workers": {
+        "app/my-page/page": {
+          "moduleId": "[project]/.next-internal/server/app/my-page/page/actions.js { ACTIONS_MODULE0 => \"[project]/actions/notion.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "submitWaitlistForm",
+          "filename": "actions/notion.ts"
+        }
+      },
+      "layer": {
+        "app/my-page/page": "action-browser"
+      },
+      "exportedName": "submitWaitlistForm",
+      "filename": "actions/notion.ts"
+    },
+    "70d459a2e42df3de227639d653795394176f4096ee": {
+      "workers": {
+        "app/my-page/page": {
+          "moduleId": "[project]/.next-internal/server/app/my-page/page/actions.js { ACTIONS_MODULE0 => \"[project]/actions/notion.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "verifyLogin",
+          "filename": "actions/notion.ts"
+        }
+      },
+      "layer": {
+        "app/my-page/page": "action-browser"
+      },
+      "exportedName": "verifyLogin",
+      "filename": "actions/notion.ts"
+    }
+  },
+  "edge": {}
+}

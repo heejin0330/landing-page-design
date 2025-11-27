@@ -1,0 +1,50 @@
+{
+  "node": {
+    "60da9626967c432fb7b5f35c996fffe514b45031ed": {
+      "workers": {
+        "app/self-assessment/page": {
+          "moduleId": "[project]/.next-internal/server/app/self-assessment/page/actions.js { ACTIONS_MODULE0 => \"[project]/actions/gemini.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/actions/notion.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "sendChatMessage",
+          "filename": "actions/gemini.ts"
+        }
+      },
+      "layer": {
+        "app/self-assessment/page": "action-browser"
+      },
+      "exportedName": "sendChatMessage",
+      "filename": "actions/gemini.ts"
+    },
+    "78a333388d3e2db9241a5de54a510b23b3813ec8e2": {
+      "workers": {
+        "app/self-assessment/page": {
+          "moduleId": "[project]/.next-internal/server/app/self-assessment/page/actions.js { ACTIONS_MODULE0 => \"[project]/actions/gemini.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/actions/notion.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "submitWaitlistForm",
+          "filename": "actions/notion.ts"
+        }
+      },
+      "layer": {
+        "app/self-assessment/page": "action-browser"
+      },
+      "exportedName": "submitWaitlistForm",
+      "filename": "actions/notion.ts"
+    },
+    "70d459a2e42df3de227639d653795394176f4096ee": {
+      "workers": {
+        "app/self-assessment/page": {
+          "moduleId": "[project]/.next-internal/server/app/self-assessment/page/actions.js { ACTIONS_MODULE0 => \"[project]/actions/gemini.ts [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/actions/notion.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "verifyLogin",
+          "filename": "actions/notion.ts"
+        }
+      },
+      "layer": {
+        "app/self-assessment/page": "action-browser"
+      },
+      "exportedName": "verifyLogin",
+      "filename": "actions/notion.ts"
+    }
+  },
+  "edge": {}
+}

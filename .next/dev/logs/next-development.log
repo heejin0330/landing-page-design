@@ -1,0 +1,92 @@
+[00:00:01.074] Server  LOG      ✓ Ready in 684ms
+[00:00:04.385] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:04.648] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:04.648] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:04.648] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:04.648] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764063166491}
+[00:00:07.938] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"href":"http://localhost:3000/","id":"v3-1764063166490-6560029543845","type":"FCP","value":3160},{"href":"http://localhost:3000/","id":"v3-1764063166490-6322889813364","type":"TTFB","value":3015},{"attribution":{"eventTarget":"div.absolute.inset-0.bg-cover.bg-center.bg-no-repeat.opacity-100"},"href":"http://localhost:3000/","id":"v3-1764063166490-9824566637995","type":"LCP","value":3296},{"attribution":{"eventTarget":"h2.text-3xl.lg:text-4xl.font-bold.text-center.mb-16>TEXT"},"href":"http://localhost:3000/","id":"v3-1764063166493-5803032702131","type":"CLS","value":0.0012}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/react","sdkVersion":"1.2.0","speed":"4g"}
+[00:00:09.180] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:09.568] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:09.568] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:09.568] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:09.568] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764063171419}
+[00:01:28.746] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/self-asse..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="ko">
+                          <body
+                            className="antialiased"
+-                           style={{overscroll-behavior-x:"contain",overscroll-behavior-y:"contain"}}
+                          >
+                  ...
+
+[00:01:28.746] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:01:28.746] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:01:28.746] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/self-assessment","route":"/self-assessment"}
+[00:01:28.746] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/self-assessment color: rgb(120, 120, 120) color: inherit {"dp":"/self-assessment","o":"http://localhost:3000/self-assessment","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764063250603}
+[00:01:30.279] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:30.477] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:01:30.477] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:01:30.477] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/self-assessment","route":"/self-assessment"}
+[00:01:30.477] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/self-assessment color: rgb(120, 120, 120) color: inherit {"dp":"/self-assessment","o":"http://localhost:3000/self-assessment","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764063252332}
+[00:02:05.243] Server  ERROR   C:\cording\landing-page-design\.next\dev\server\chunks\ssr\[root-of-the-server]__4c5dced1._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:02:05.245] Server  ERROR    ⨯ ReferenceError: Pricing is not defined
+[00:02:05.857] Browser ERROR   uncaughtError: ReferenceError: Pricing is not defined
+[00:02:07.084] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:07.954] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:07.954] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:07.954] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:02:07.954] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764063289252}
+[00:02:09.536] Server  LOG      ✓ Compiled in 88ms
+[00:02:10.468] Server  LOG      ✓ Compiled in 116ms
+[00:02:23.673] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:23.870] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:23.870] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:23.870] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/self-assessment","route":"/self-assessment"}
+[00:02:23.870] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/self-assessment color: rgb(120, 120, 120) color: inherit {"dp":"/self-assessment","o":"http://localhost:3000/self-assessment","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764063305727}
+[00:02:26.860] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"href":"http://localhost:3000/self-assessment","id":"v3-1764063305702-5684478601671","type":"FCP","value":432},{"href":"http://localhost:3000/self-assessment","id":"v3-1764063305702-7760096587497","type":"TTFB","value":242},{"attribution":{"eventTarget":"h3.text-xl.font-bold.text-foreground.mb-4"},"href":"http://localhost:3000/self-assessment","id":"v3-1764063305702-3837957496510","type":"LCP","value":432},{"attribution":{"eventTarget":"a.flex.items-center.gap-2.hover:opacity-80.transition-opacity>span.font-bold.text-lg.text-foreground","eventType":"pointerdown"},"href":"http://localhost:3000/self-assessment","id":"v3-1764063305702-3864070460050","type":"FID","value":3.39}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/react","sdkVersion":"1.2.0","speed":"4g"}
+[00:02:26.860] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764063308705}
+[00:02:29.468] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:29.745] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:29.745] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:29.745] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/self-assessment","route":"/self-assessment"}
+[00:02:29.745] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/self-assessment color: rgb(120, 120, 120) color: inherit {"dp":"/self-assessment","o":"http://localhost:3000/self-assessment","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764063311589}
+[00:02:32.730] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"href":"http://localhost:3000/self-assessment","id":"v3-1764063311589-4583741763783","type":"FCP","value":160},{"href":"http://localhost:3000/self-assessment","id":"v3-1764063311589-4898033542858","type":"TTFB","value":65},{"attribution":{"eventTarget":"div.bg-card.border.border-border.rounded-xl.p-8.mb-8>p.text-muted-foreground.leading-relaxed.mb-6"},"href":"http://localhost:3000/self-assessment","id":"v3-1764063311589-9016915019049","type":"LCP","value":160}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/react","sdkVersion":"1.2.0","speed":"4g"}
+[00:02:34.309] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"attribution":{"eventTarget":"div.hidden.md:flex.items-center.gap-8>a.text-sm.text-foreground.hover:text-primary.transition-colors","eventType":"pointerdown"},"href":"http://localhost:3000/self-assessment#features","id":"v3-1764063311589-9335191307321","type":"FID","value":1.29}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/react","sdkVersion":"1.2.0","speed":"4g"}
+[00:02:35.253] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:35.443] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:35.443] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:35.443] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/self-assessment","route":"/self-assessment"}
+[00:02:35.443] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/self-assessment color: rgb(120, 120, 120) color: inherit {"dp":"/self-assessment","o":"http://localhost:3000/self-assessment","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764063317278}
+[00:02:36.955] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"href":"http://localhost:3000/self-assessment","id":"v3-1764063317277-1527865021308","type":"FCP","value":188},{"href":"http://localhost:3000/self-assessment","id":"v3-1764063317277-2632701353814","type":"TTFB","value":76},{"attribution":{"eventTarget":"div.bg-card.border.border-border.rounded-xl.p-8.mb-8>p.text-muted-foreground.leading-relaxed.mb-6"},"href":"http://localhost:3000/self-assessment","id":"v3-1764063317277-6990636684693","type":"LCP","value":188},{"attribution":{"eventTarget":"html>body.antialiased>main.min-h-screen.bg-background>section.py-16.lg:py-24","eventType":"pointerdown"},"href":"http://localhost:3000/self-assessment","id":"v3-1764063317277-5263802633641","type":"FID","value":1.5}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/react","sdkVersion":"1.2.0","speed":"4g"}
+[00:02:38.145] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764063319988}
+[00:03:58.936] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"attribution":{"eventTarget":"a.text-sm.text-primary.hover:underline.font-medium","eventType":"click"},"href":"http://localhost:3000/","id":"v3-1764063317277-8480426072485","type":"INP","value":56},{"attribution":{},"href":"http://localhost:3000/","id":"v3-1764063317277-9285748195772","type":"CLS","value":0}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/react","sdkVersion":"1.2.0","speed":"4g"}
+[00:06:08.729] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"href":"http://localhost:3000/","id":"v3-1764063289244-4674895758917","type":"TTFB","value":684}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/react","sdkVersion":"1.2.0","speed":"4g"}
+[00:06:18.941] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"attribution":{"eventTarget":"#features","eventType":"pointerdown"},"href":"http://localhost:3000/","id":"v3-1764063289244-9709635157399","type":"INP","value":0}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/react","sdkVersion":"1.2.0","speed":"4g"}
