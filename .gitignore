@@ -1,2 +1,19 @@
+# 환경 변수 (비밀번호 등)
+.env
+.env.local
+.env.production
+
+# 의존성 모듈
+node_modules/
+dist/
+build/
+
+# 시스템 파일
+.DS_Store
+Thumbs.db
 .vercel
 node_modules
+
+# 로그 파일
+*.log
+logs/
