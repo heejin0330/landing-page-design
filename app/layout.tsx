@@ -5,10 +5,10 @@ import { SpeedInsights } from "@vercel/speed-insights/react";
 import Chatbot from "@/components/chatbot";
 import "./globals.css";
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://hi-special.com";
+
 export const metadata: Metadata = {
-  metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL || "https://hi-special.com"
-  ),
+  metadataBase: new URL(siteUrl),
   title: {
     default: "HI-Special - 당신에게 맞는 고등학교를 찾아보세요",
     template: "%s | HI-Special",
@@ -37,14 +37,14 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "ko_KR",
-    url: "/",
+    url: siteUrl,
     siteName: "HI-Special",
     title: "HI-Special - 당신에게 맞는 고등학교를 찾아보세요",
     description:
       "당신의 필요에 맞는 고등학교를 발견하고 비교해보세요. AI 기반 스마트 매칭, 상세한 학교 분석, 전문가 상담 서비스를 통해 학생, 학부모, 교육자를 위한 맞춤형 고등학교 찾기 가이드를 제공합니다.",
     images: [
       {
-        url: "/tagbanner.png",
+        url: `${siteUrl}/tagbanner.png`,
         width: 1200,
         height: 630,
         alt: "HI-Special - 고등학교 찾기 서비스",
@@ -53,14 +53,18 @@ export const metadata: Metadata = {
     ],
   },
   other: {
-    "og:image:secure_url": "/tagbanner.png",
+    "og:image:url": `${siteUrl}/tagbanner.png`,
+    "og:image:secure_url": `${siteUrl}/tagbanner.png`,
+    "og:image:width": "1200",
+    "og:image:height": "630",
+    "og:image:type": "image/png",
   },
   twitter: {
     card: "summary_large_image",
     title: "HI-Special - 당신에게 맞는 고등학교를 찾아보세요",
     description:
       "당신의 필요에 맞는 고등학교를 발견하고 비교해보세요. AI 기반 스마트 매칭, 상세한 학교 분석, 전문가 상담 서비스를 제공합니다.",
-    images: ["/tagbanner.png"],
+    images: [`${siteUrl}/tagbanner.png`],
   },
   robots: {
     index: true,
